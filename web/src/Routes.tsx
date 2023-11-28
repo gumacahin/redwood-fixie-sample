@@ -12,6 +12,8 @@ import { Router, Route } from '@redwoodjs/router'
 const Routes = () => {
   return (
     <Router>
+      <Route path="/about" page={AboutPage} name="about" />
+      <Route path="/hello" page={HomePage} name="home" />
       <Route path="/low-level-api" page={LowLevelApiPage} name="lowLevelApi" />
       <Route path="/use-fixie" page={UseFixiePage} name="useFixie" />
       <Route path="/controlled-floating-embed" page={ControlledFloatingEmbedPage} name="controlledFloatingEmbed" />
